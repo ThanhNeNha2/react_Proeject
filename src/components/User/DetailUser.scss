@@ -1,0 +1,34 @@
+
+.backrou{
+  background-color: gray;
+  height: 100vh;
+}
+.main-user {
+  height: 128px;
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  // align-items: center;
+  .main-user_name,
+  .main-user_email {
+    border-right: 1px solid red;
+    height: 128px;
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  }
+  .main-user_img {
+    margin: 0 auto;
+  
+  }
+}
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+ 
+}
